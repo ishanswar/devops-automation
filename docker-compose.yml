@@ -1,0 +1,9 @@
+services:
+  demo-service:
+      build: .
+      image: demoimage
+      container_name: democontainer
+      restart: always
+      ports:
+      - "6000:8080"
+      
